@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".chooseClass">
+
+
+    <LinearLayout
+        android:paddingTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="139dp"
+
+            android:layout_height="200dp" android:layout_margin="10dp">
+
+            <LinearLayout
+                android:id="@+id/eleven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <view
+                    class="android.support.v7.widget.CardView"
+                    id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/cercleshape"
+                    android:src="@drawable/xi" />
+
+
+                <view
+                    class="android.support.v7.widget.CardView"
+                    id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="139dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/twelve"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <view
+                    class="android.support.v7.widget.CardView"
+                    id="@+id/view7"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/cercleshape"
+                    android:src="@drawable/xii"
+                    android:layout_margin="10dp"/>
+                <view
+                    class="android.support.v7.widget.CardView"
+                    id="@+id/view9"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#fff"
+        android:background="#ed760487"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="About us !" />
+
+
+</LinearLayout>
